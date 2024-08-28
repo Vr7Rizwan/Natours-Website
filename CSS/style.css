@@ -85,6 +85,69 @@ body{
     margin: 5rem;
 }
 
+/* 2nd page */
+.container-2{
+    background-color: #f7f7f7;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6.5rem;
+}
+.container-2 h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #7ed56f;
+    text-align: center;
+    letter-spacing: .2rem;
+}
+.row{
+    margin: 0 3.15rem;
+    display: flex;
+}
+.left{
+    width: 40%;
+    margin: 0 6rem 0 0;
+}
+.left h2{
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    margin: 0 0 1.5rem;
+}
+.left p{
+    font-size: 1.6rem;
+    margin: 0 0 3rem;
+    text-align: justify;
+}
+.left a{
+    font-size: 1.6rem;
+    color: #55c57a;
+    text-decoration: none;
+    border-bottom: 1px solid #55c57a;
+    padding: 0.3rem;
+}
+.right{
+    padding-left: 7rem;
+    position: relative;
+}
+.nat-1{
+    position: absolute;
+    z-index: 1;
+}
+.nat-2{
+    position: absolute;
+    z-index: 5;
+    left: 32rem;
+    top: 4rem;
+}
+.nat-3{
+    position: absolute;
+    z-index: 10;
+    top: 12rem;
+    left: 16rem;
+}
+
 /* Utility Classes */
 .point:hover{
     cursor: pointer;
