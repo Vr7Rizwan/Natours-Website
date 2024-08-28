@@ -1,3 +1,8 @@
 .bottom{
     justify-content: center;
 }
+.container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

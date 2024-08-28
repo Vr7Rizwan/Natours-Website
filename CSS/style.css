@@ -90,10 +90,10 @@ body{
     background-color: #f7f7f7;
     /* height: 100vh; */
     padding: 11rem 0;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 6.5rem;
+    gap: 6.5rem; */
 }
 .container-2 h1{
     text-transform: uppercase;
