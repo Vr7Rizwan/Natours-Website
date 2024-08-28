@@ -20,7 +20,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 100%;
+    /* width: 100%; */
     height: 95vh;
     display: flex;
     flex-direction: column;
@@ -30,6 +30,7 @@ body{
 }
 .top{
     padding: 4rem;
+    height: 15vh;
 }
 .menu{
     height: 7rem;
@@ -51,9 +52,10 @@ body{
 }
 
 .bottom{
+    height: 80vh;
     display: flex;
     flex-direction: column;
-    gap: 6rem;
+    align-items: center;
 }
 .bottom h1{
     font-size: 6rem;
@@ -80,6 +82,7 @@ body{
     border-radius: 10rem;
     border: none;
     color: rgb(119, 119, 119);
+    margin: 5rem;
 }
 
 /* Utility Classes */
