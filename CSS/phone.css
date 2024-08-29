@@ -96,3 +96,26 @@ body{
     flex-direction: column;
     align-items: center;
 }
+
+/* Page 5 */
+.subContainer h1{
+    font-size: 1.5rem;
+}
+.reviews{
+    width: 95%;
+    grid-gap: 0.5rem;
+}
+.reviews img{
+    width: 13rem;
+    height: 13rem;
+}
+.reviews p{
+    font-size: 1.2rem;
+    letter-spacing: 0;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+/* .subContainer{
+    gap: 1.5rem;
+    padding: 2rem;
+} */

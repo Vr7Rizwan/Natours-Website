@@ -38,3 +38,12 @@
         align-items: center;
     }
 }
+/* Page 5 */
+/* .subContainer{
+    gap: 5rem;
+    padding: 2rem;
+} */
+.reviews{
+    padding: 4rem;
+    width: 85%;
+}

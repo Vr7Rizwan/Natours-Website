@@ -292,6 +292,90 @@ body{
     margin: auto;
     margin-bottom: 8rem;
 }
+
+/* Page 5 */
+.container-5{
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    height: auto;
+}
+#myVideo{
+    opacity: 25%;
+    z-index: -1;
+    position: absolute;
+    object-fit: cover;
+    /* top: 0;
+    left: 0;
+    right: 0; */
+}
+.subContainer h1{
+    text-align: center;
+    font-size: 3.5rem;
+    color: #55c57a;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+}
+.subContainer{
+    padding: 3.5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 13rem 0;
+    gap: 4rem;
+}
+.reviews{
+    width: 80%;
+    display: flex;
+    gap: 0;
+    background-color: rgba(256, 256, 256, 0.6);
+    padding: 4rem;
+}
+.reviews{
+    width: 80%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 1rem;
+}
+.reviews img{
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 90rem;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    justify-self: center;
+    align-self: center;
+}
+.reviews img:hover{
+    filter: blur(0.19rem);
+    
+}
+.reviews h2{
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem !important;
+    display: block;
+}
+.reviews p{
+    line-height: 1.7;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.container-5 a{
+    font-size: 1.6rem;
+    text-decoration: none;
+    padding: 3px;
+    border-bottom: 1px solid #55c57a;
+    color: #55c57a;
+    width: 13.25rem;
+}
+.container-5 a:hover{
+    background-color: #55c57a;
+    color: white;
+}
 /* Utility Classes */
 .point:hover{
     cursor: pointer;
