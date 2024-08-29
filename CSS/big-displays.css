@@ -1,8 +1,41 @@
+/* Page 1 */
 .bottom{
     justify-content: center;
 }
+
+/* Page 2 */
 .container-2{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.row{
+    width: 80%;
+    justify-content: space-between;
+}
+.container-2 h1{
+    font-size: 6rem;
+    font-weight: 900;
+}
+.left h2{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.left p{
+    font-size: 2.9rem;
+}
+.left a{
+    font-size: 3rem;
+}
+
+/* Page 3 */
+.box{
+    width: 20%;
+    height: auto;
+}
+.box h2{
+    font-size: 3.5rem;
+}
+.box span{
+    font-size: 2.8rem;
 }

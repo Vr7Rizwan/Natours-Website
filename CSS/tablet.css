@@ -1,27 +1,40 @@
-.right{
+/* Page 2 */
+.right {
     padding: 0;
 }
-.nat-1{
+
+.nat-1 {
     width: 65%;
     left: 0;
 }
-.nat-2{
+
+.nat-2 {
     left: 40%;
     width: 65%;
 }
-.nat-3{
+
+.nat-3 {
     left: 16%;
     top: 35%;
     width: 65%;
 }
-@media screen and (max-width:1180px) and (min-width:768px) {
-    .nat-1{
+
+@media screen and (max-width:1205px) and (min-width:768px) {
+    .nat-1 {
         top: 28%;
     }
-    .nat-2{
+
+    .nat-2 {
         top: 35%;
     }
-    .nat-3{
+
+    .nat-3 {
         top: 50%;
+    }
+
+    /* Page 3 */
+    .boxes {
+        flex-direction: column;
+        align-items: center;
     }
 }
