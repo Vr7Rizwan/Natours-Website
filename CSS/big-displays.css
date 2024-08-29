@@ -39,3 +39,17 @@
 .box span{
     font-size: 2.8rem;
 }
+
+/* Page 4 */
+.container-4 .box{
+    height: auto;
+    width: 20%;
+    padding: 0;
+}
+.upper h1,.upper h2{
+    font-size: 3rem;
+}
+.container-4 > button{
+    width: 20%;
+    font-size: 3rem;
+}
