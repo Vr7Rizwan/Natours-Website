@@ -117,7 +117,7 @@ body{
 }
  /* Page 6 */
  .subContainer-2{
-    width: 60%;
+    width: 80%;
  }
  .contain-form{
     width: 100%;
@@ -131,3 +131,19 @@ body{
     padding-left: 0.7rem;
     padding-right: 0.7rem;
  }
+
+ /* Footer */
+ .foot-info{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left-info{
+    width: 85%;
+}
+.left-info ul a{
+    font-size: 0.8rem;
+}
+.right-info{
+    width: 85%;
+}

@@ -50,3 +50,19 @@
 .radioButtons span{
     font-size: 1rem;
 }
+
+/* Footer */
+.foot-info{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left-info{
+    width: 50%;
+}
+.left-info ul a{
+    font-size: 1rem;
+}
+.right-info{
+    width: 50%;
+}
