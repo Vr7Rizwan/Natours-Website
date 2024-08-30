@@ -376,6 +376,76 @@ body{
     background-color: #55c57a;
     color: white;
 }
+
+/* Page 6 */
+.container-6{
+    width: 100%;
+    background-color: #55c57a;
+    padding: 15rem 0;
+}
+.subContainer-2{
+    width: 95%;
+    margin: auto;
+    background: url('../img/nat-10.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4px;
+}
+.contain-form{
+    width: 50%;
+    background-color: rgba(256, 256, 256, 0.88);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4.5rem;
+    padding: 6rem 0;
+    width: 70%;
+    margin: auto;
+}
+.form h1{
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #55c57a;
+}
+.form > input{
+    width: 90%;
+    /* margin: auto; */
+    font-size: 1.5rem;
+    padding: 1.5rem 2rem;
+    border-radius: 2px;
+    border: none;
+}
+.radioButtons{
+    width: 80%;
+    /* margin: auto; */
+    display: flex;
+    justify-content: space-between;
+}
+.radioButtons input{
+    height: 3rem;
+    width: 3rem;
+    border: 5px solid #55c57a;
+    border-radius: 50%;
+}
+.radioButtons span{
+    font-size: 1.6rem;
+    cursor: pointer;
+    padding-left: 1rem;
+}
+.form button{
+    padding: 1.5rem 4rem;
+    border-radius: 10rem;
+    font-size: 1.6rem;
+    border: none;
+    height: 4.8rem;
+    width: 18.8781rem;
+    background-color: #55c57a;
+    color: white;
+}
 /* Utility Classes */
 .point:hover{
     cursor: pointer;

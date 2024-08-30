@@ -39,11 +39,14 @@
     }
 }
 /* Page 5 */
-/* .subContainer{
-    gap: 5rem;
-    padding: 2rem;
-} */
 .reviews{
     padding: 4rem;
     width: 85%;
+}
+/* Page 6 */
+.form{
+    width: 80%;
+}
+.radioButtons span{
+    font-size: 1rem;
 }
